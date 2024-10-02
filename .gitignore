@@ -1,0 +1,44 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the build process
+/build/
+bin/
+out/
+
+# Vendor directory (optional, if you're using Go modules and vendoring dependencies)
+vendor/
+
+# Go modules and package cache
+/go.sum
+/go/pkg/
+**/go.work
+**/go.work.sum
+
+# Test binary and coverage files
+*.coverprofile
+*.test
+*.out
+*.cov
+
+# IDE/Editor specific files (e.g., VSCode, JetBrains IDEs)
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency management files (if not using Go modules)
+Godeps/
+
+# Local env file or settings
+.env
